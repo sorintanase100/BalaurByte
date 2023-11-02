@@ -184,7 +184,7 @@ body {
         width:auto;
     }
 }
-@media (min-width: 576px){
+@media (min-width: 425px){
 
     .col-md-4 {
         width: auto;
