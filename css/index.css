@@ -1,3 +1,7 @@
+
+:root {
+    --profile-width: auto;
+}
 body {
     font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", "Liberation Sans", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     background-color:rgb(252,253,247);
@@ -165,4 +169,31 @@ body {
      .card{
 	margin-left:1vw;	
    }
+}
+@media (max-width: 990px) and (min-width: 768px){
+    .col-md-4 {
+        width: auto !important;
+        padding: 0;
+        margin-left: calc(10% - 2vw);
+        margin-right: calc(12% - 4vw);
+    }
+    .card {
+        width:auto;
+    }
+    .container {
+        width:auto;
+    }
+}
+@media (min-width: 576px){
+
+    .col-md-4 {
+        width: auto;
+        padding: 0;
+        margin-left: calc(7% - 2vw);
+        margin-right: calc(10% - 4vw);
+    }
+
+    .container {
+        width:auto;
+    }
 }
