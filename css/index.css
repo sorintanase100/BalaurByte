@@ -156,3 +156,13 @@ body {
 	margin-left:14vw;	
    }
 }
+@media (max-width:375px){
+     .card{
+	margin-left:9vw;	
+   }
+}
+@media (max-width:320px){
+     .card{
+	margin-left:1vw;	
+   }
+}
