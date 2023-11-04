@@ -155,21 +155,6 @@ body {
 
 }
 
-@media (max-width:425px){
-     .card{
-	margin-left:14vw;	
-   }
-}
-@media (max-width:375px){
-     .card{
-	margin-left:9vw;	
-   }
-}
-@media (max-width:320px){
-     .card{
-	margin-left:1vw;	
-   }
-}
 @media (max-width: 990px) and (min-width: 768px){
     .col-md-4 {
         width: auto !important;
