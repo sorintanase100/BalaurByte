@@ -27,7 +27,7 @@ body {
 #section1 {
     background-color: rgb(0, 19, 38);
     margin: auto;
-    height: auto;
+    height: auto !important;
 }
 #section1 > img {
     height: inherit;
